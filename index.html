@@ -6,80 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,500&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="box box1">
-            <div class="header nav">
-                <ul>
-                    <li class="logo"><img src="./images/logo.jpg" alt="My logo">Infinity</li>
-                    <li class="link"><a href="./pages/places.html">Places</a></li>
-                    <li class="link"><a href="./pages/foods.html">Foods</a></li>
-                    <li class="link"><a href="./pages/culture.html">Culture</a></li>
-                </ul>
+    <header>
+        <nav>
+            <span class="logo-content">
+                <img src="./images/logo.jpg" alt="logo">
+                <p class="logo">Infinity</p>
+            </span>
+            <ul>
+                <li class="link"><a href="./pages/places.html">Places</a></li>
+                <li class="link"><a href="./pages/foods.html">Foods</a></li>
+                <li class="link"><a href="./pages/culture.html">Culture</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="content">
+                <h1 class="contents">Things about <br>Türkiye</h1>
+                <h2 class="contents">It's a website about Türkiye, sign up to be more interactive. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Deleniti reiciendis fugiat minima excepturi at ipsum aliquid
+                    consequuntur accusantium tempore earum in impedit, eos, iste...</h2>
+                <button class="contents">Sign up</button>
             </div>
-        </div>
-        <div class="box box2">
-            <div class="header m">
-                <div class="content">
-                    <h1>Things about Türkiye</h1>
-                    <h4>It's a website about Türkiye, sign up to be more interactive.</h4>
-                    <button type="button">Sign up</button>
-                </div>
-                <div class="image">
-                    <img src="./images/istanbul.jpeg" alt="istanbul/kiz kulesi">
-                </div>
-            </div>
-        </div>
-        <div class="box box3">
-            <div class="main">
-                <p>Some cities in Türkiye</p>
-                <figure class="figure figure1">
+            <img src="./images/istanbul.jpeg" alt="istanbul/kiz kulesi">
+        </section>
+    </header>
+    <main>
+        <section class="section1">
+            <h1>Some cities in Türkiye</h1>
+            <span class="figures">
+                <figure>
                     <img src="./images/izmir.jpeg" alt="Izmir view">
-                    <figcaption class="figurecap">Izmir</figcaption>
+                    <figcaption>İzmir</figcaption>
                 </figure>
-                <figure class="figure figure2">
+                <figure>
                     <img src="./images/sea.png" alt="Sea view">
-                    <figcaption class="figurecap">Istanbul</figcaption>
-
+                    <figcaption>İstanbul</figcaption>
                 </figure>
-                <figure class="figure figure3">
-
+                <figure>
                     <img src="./images/kapadokya.jpg" alt="kapadokya">
-                    <figcaption class="figurecap">Kapadokya</figcaption>
-
+                    <figcaption>Kapadokya</figcaption>
                 </figure>
-                <figure class="figure figure4">
-
+                <figure>
                     <img src="./images/trabzon.webp" alt="trabzon">
-                    <figcaption class="figurecap">Trabzon</figcaption>
+                    <figcaption>Trabzon</figcaption>
                 </figure>
+            </span>
+        </section>
+        <aside>
+            <p>“Our true mentor in life is science.” <br>
+                ― Mustafa Kemal Atatürk</p>
+        </aside>
+        <section class="section2">
+            <div class="information">
+                <p class="information1">It's time!!!</p>
+                <p class="information2">Sign up for more information</p>
             </div>
-        </div>
-        <div class="box box4">
-            <div class="section1">
-                <p>“Our true mentor in life is science.”
-                    ― Mustafa Kemal Atatürk</p>
-            </div>
-        </div>
-        <div class="box box5">
-            <div class="section2">
-                <div class="section2 info">
-                    <p class="info info1">It's time</p>
-                    <br>
-                    <p class="info info2">Sign up for more information</p>
-                </div>
-                <div class="section2 button">
-                    <button type="button">Sign up</button>
-                </div>
-            </div>
-        </div>
-        <div class="box box6">
-            <div class="footer">
-                <p>Copyright ©</p>
-            </div>
-        </div>
-    </div>
+            <button class="button2">Sign up</button>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright ©</p>
+    </footer>
 </body>
 </html>
-

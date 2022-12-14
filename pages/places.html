@@ -6,74 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Places</title>
     <link rel="stylesheet" href="places.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,500&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="box box1">
-            <div class="header nav">
-                <ul>
-                    <li class="logo"><img src="../images/logo.jpg" alt="My logo">Infinity</li>
-                    <li class="homepage"><a href="../index.html">Homepage</a></li>
-                    <li class="link"><a href="../pages/places.html">Places</a></li>
-                    <li class="link"><a href="../pages/foods.html">Foods</a></li>
-                    <li class="link"><a href="../pages/culture.html">Culture</a></li>
-                </ul>
+    <header>
+        <nav>
+            <span class="logo-content">
+                <img src="../images/logo.jpg" alt="logo">
+                <p class="logo">Infinity</p>
+            </span>
+            <ul>
+                <li class="link"><a href="../index.html">Homepage</a></li>
+                <li class="link"><a href="./pages/foods.html">Foods</a></li>
+                <li class="link"><a href="./pages/culture.html">Culture</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="content">
+                <h1 class="contents">Places to <br>visit</h1>
+                <h2 class="contents">The most beautiful places to visit Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sed odio saepe labore dicta, voluptas ex nulla mollitia illo sapiente officia
+                    ullam sit aut est quibusdam officiis, natus amet aperiam eaque?</h2>
+                <button class="contents">Sign up</button>
             </div>
-        </div>
-        <div class="box box2">
-            <div class="header m">
-                <div class="content">
-                    <h1>Places to visit</h1>
-                    <h4>The most beautiful places to visit</h4>
-                </div>
-                <div class="image">
-                    <img src="../images/places.webp" alt="Places general">
-                </div>
-            </div>
-        </div>
-        <div class="box box3">
-            <div class="main">
-                <p>4 places to start visiting</p>
-                <figure class="figure figure1">
+            <img src="../images/places.webp" alt="Places general">
+        </section>
+    </header>
+    <main>
+        <section class="section1">
+            <h1>4 places to start visiting</h1>
+            <span class="figures">
+                <figure>
                     <img src="../images/mountnemrut.jpg" alt="Mount Nemrut">
                     <figcaption class="figurecap">Mount Nemrut</figcaption>
                 </figure>
-                <figure class="figure figure2">
+                <figure>
                     <img src="../images/ephesus.jpg" alt="Ephesus">
                     <figcaption class="figurecap">Ephesus</figcaption>
                 </figure>
-                <figure class="figure figure3">
+                <figure>
                     <img src="../images/topkapipalace.jpg" alt="Topkapi Palace">
                     <figcaption class="figurecap">Topkapi Palace</figcaption>
                 </figure>
-                <figure class="figure figure4">
+                <figure>
                     <img src="../images/pamukkale.jpg" alt="Pamukkale">
                     <figcaption class="figurecap">Pamukkale</figcaption>
                 </figure>
+            </span>
+        </section>
+        <aside>
+            <p>“Remember that happiness is a way of travel, not a destination.”</p>
+        </aside>
+        <section class="section2">
+            <div class="information">
+                <p class="information1">It's time!!!</p>
+                <p class="information2">Sign up for more information</p>
             </div>
-        </div>
-        <div class="box box4">
-            <div class="section1">
-                <p>“Remember that happiness is a way of travel, not a destination.”</p>
-            </div>
-        </div>
-        <div class="box box5">
-            <div class="section2">
-                <div class="section2 info">
-                    <p class="info info1">It's time</p>
-                    <br>
-                    <p class="info info2">Sign up for more information</p>
-                </div>
-                <div class="section2 button">
-                    <button type="button">Sign up</button>
-                </div>
-            </div>
-        </div>
-        <div class="box box6">
-            <div class="footer">
-                <p>Copyright ©</p>
-            </div>
-        </div>
-    </div>
+            <button class="button2">Sign up</button>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright ©</p>
+    </footer>
 </body>
 </html>
